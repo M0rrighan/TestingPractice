@@ -1,0 +1,23 @@
+{
+  "name": "testingpractice",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)\r # TestingPractice\r This repo is used to practice writing tests for JavaScript functions using the Jest library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0rrighan/TestingPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M0rrighan/TestingPractice/issues"
+  },
+  "homepage": "https://github.com/M0rrighan/TestingPractice#readme",
+  "dependencies": {
+    "jest": "^27.0.0-next.8"
+  },
+  "devDependencies": {}
+}
