@@ -10,7 +10,7 @@ describe('#reverseString(string) is working properly', () => {
   
     // Assert
     expect(reversed).toBe('alimdar');
-  })
+  });
 
   test('returns the correct reversed string', () => {
     // Arrange
@@ -21,10 +21,10 @@ describe('#reverseString(string) is working properly', () => {
   
     // Assert
     expect(reversed).toBe('avecjots');
-  })
+  });
 
   test('throws error for emtpy string', () => {
     // Act and Assert
-    expect(() => stringLength('')).toThrow(Error);
-  })
-})
+    expect(() => reverseString('')).toThrow('No empty string allowed');
+  });
+});
